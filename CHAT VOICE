@@ -17,7 +17,7 @@ TitleLabel.BackgroundTransparency = 1
 TitleLabel.Position = UDim2.new(0.2, 0, 0.1, 0)
 TitleLabel.Size = UDim2.new(0, 200, 0, 30)
 TitleLabel.Font = Enum.Font.GothamSemibold
-TitleLabel.Text = "THENOGATO GUI"
+TitleLabel.Text = "THENOGATO PREMIUN"
 TitleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TitleLabel.TextSize = 24
 
@@ -283,7 +283,7 @@ end)
 --===[ KEY CHECK ]===--
 
 CheckButton.MouseButton1Click:Connect(function()
-    if KeyBox.Text == "PATO" then
+    if KeyBox.Text == "DAV" then
         MainFrame.Visible = false
         MainGui.Visible = true
         Notification.Visible = true
