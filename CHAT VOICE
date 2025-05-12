@@ -283,7 +283,7 @@ end)
 --===[ KEY CHECK ]===--
 
 CheckButton.MouseButton1Click:Connect(function()
-    if KeyBox.Text == "DAV" then
+    if KeyBox.Text == "PATO" then
         MainFrame.Visible = false
         MainGui.Visible = true
         Notification.Visible = true
